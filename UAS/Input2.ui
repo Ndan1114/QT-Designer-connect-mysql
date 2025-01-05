@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>161</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget{
+	background-color:rgb(31, 149, 239);
+	border:none;
+}
+
+QPushButton {
+	color:white;
+	text-align:left;
+	height:30px;
+	border:none;
+	padding-left:10px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+QPushButton:checked {
+	background-color: #F5FAFE;
+	color:#1F95EF;
+	font-weight:bold;
+}</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>71</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../asus/OneDrive/Gambar/UTS pak opan/OIP-removebg-preview.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>81</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>OCR A Extended</family>
+       <pointsize>20</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>HRD</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Data Karyawan</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/user-removebg-preview.png</normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/user-removebg-preview.png</iconset>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>210</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Progress</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/data-removebg-preview.png</normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/data-removebg-preview.png</iconset>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>-110</x>
+       <y>110</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>-120</x>
+       <y>170</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PushButton</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_14">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>About</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/png-transparent-black-logo-computer-icons-information-symbol-information-miscellaneous-text-smiley-removebg-preview.png</normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/png-transparent-black-logo-computer-icons-information-symbol-information-miscellaneous-text-smiley-removebg-preview.png</iconset>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>611</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>591</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(245, 250, 254);</string>
+     </property>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>81</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(85,85,127);
+</string>
+      </property>
+      <property name="text">
+       <string>Logout</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/shutdown-vector-icon-removebg-preview.png</normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/shutdown-vector-icon-removebg-preview.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>30</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>-10</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Palace Script MT</family>
+        <pointsize>20</pointsize>
+        <italic>true</italic>
+       </font>
+      </property>
+      <property name="text">
+       <string>N_A</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>601</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Nama</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>30</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:1px solid rgba(0, 0, 0, 0);
+border-bottom-color:rgba(46, 82, 101, 255);
+color:rgba(255, 255, 255);
+padding-bottom:7px;</string>
+       </property>
+       <property name="placeholderText">
+        <string>Nama</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Alamat</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>70</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:1px solid rgba(0, 0, 0, 0);
+border-bottom-color:rgba(46, 82, 101, 255);
+color:rgba(255, 255, 255);
+padding-bottom:7px;</string>
+       </property>
+       <property name="placeholderText">
+        <string>Alamat</string>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>581</width>
+         <height>311</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">backgorund-color:black;</string>
+       </property>
+       <column>
+        <property name="text">
+         <string>id</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Nama</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Alamat</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Jenis_Kelamin</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Jabatan</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Status</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>10</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Jenis_Kelamin</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>30</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <item>
+        <property name="text">
+         <string>Laki-Laki</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Perempuan</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>10</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Jabatan</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>30</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Operator Produksi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Leader Produksi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Administrasi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Front Office</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>IT Support</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Admin IT</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gudang</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>50</y>
+         <width>81</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Status</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_4">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>70</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Menikah</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lajang</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cerai</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>Tambahkan</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/tambah-removebg-preview.png</normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/tambah-removebg-preview.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>110</y>
+         <width>91</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+</string>
+       </property>
+       <property name="text">
+        <string>Edit</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/edit-removebg-preview.png</normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/edit-removebg-preview.png</iconset>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>110</y>
+         <width>101</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:red;
+</string>
+       </property>
+       <property name="text">
+        <string>Hapus</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/sampah-removebg-preview.png</normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/sampah-removebg-preview.png</iconset>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-10</y>
+         <width>601</width>
+         <height>601</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>OCR A Extended</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(85,85,127);
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="Line" name="line">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>581</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <zorder>label_9</zorder>
+      <zorder>label_3</zorder>
+      <zorder>lineEdit_3</zorder>
+      <zorder>label_4</zorder>
+      <zorder>lineEdit_2</zorder>
+      <zorder>tableWidget</zorder>
+      <zorder>label_6</zorder>
+      <zorder>comboBox_2</zorder>
+      <zorder>label_7</zorder>
+      <zorder>comboBox_3</zorder>
+      <zorder>label_8</zorder>
+      <zorder>comboBox_4</zorder>
+      <zorder>pushButton_7</zorder>
+      <zorder>pushButton_8</zorder>
+      <zorder>pushButton_9</zorder>
+      <zorder>line</zorder>
+     </widget>
+     <widget class="QWidget" name="page_5">
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>-10</y>
+         <width>591</width>
+         <height>601</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>OCR A Extended</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(85,85,127);
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>290</x>
+         <y>30</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>2021</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2022</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2023</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2024</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>0</y>
+         <width>231</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>PROGRESS DARI TAHUN</string>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>571</width>
+         <height>341</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>420</y>
+         <width>561</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Lihat</string>
+       </property>
+      </widget>
+      <zorder>label_19</zorder>
+      <zorder>comboBox</zorder>
+      <zorder>label_5</zorder>
+      <zorder>pushButton_6</zorder>
+      <zorder>frame_4</zorder>
+     </widget>
+     <widget class="QWidget" name="page_6">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>591</width>
+         <height>531</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>OCR A Extended</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../asus/OneDrive/Gambar/UTS pak opan/Screenshot__16_-removebg-preview.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>120</y>
+         <width>461</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Palatino Linotype</family>
+         <pointsize>30</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>WELCOME ADMIN !</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>229</x>
+     <y>39</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>229</x>
+     <y>-23</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>139</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>15</x>
+     <y>140</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>25</x>
+     <y>123</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>62</x>
+     <y>125</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>136</x>
+     <y>192</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>15</x>
+     <y>206</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>pushButton_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>186</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>70</x>
+     <y>188</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

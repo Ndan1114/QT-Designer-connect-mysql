@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>890</width>
+    <height>623</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>20</y>
+      <width>381</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Data Pegawai</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>270</y>
+      <width>791</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">backgorund-color:black;</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Nama</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Alamat</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Jenis_Kelamin</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Jabatan</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Status</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Gaji</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>Tambahkan</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/tambah-removebg-preview.png</normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/tambah-removebg-preview.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>100</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Nama</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>140</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:1px solid rgba(0, 0, 0, 0);
+border-bottom-color:rgba(46, 82, 101, 255);
+color:rgba(255, 255, 255);
+padding-bottom:7px;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Alamat</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>130</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Alamat</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>110</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:1px solid rgba(0, 0, 0, 0);
+border-bottom-color:rgba(46, 82, 101, 255);
+color:rgba(255, 255, 255);
+padding-bottom:7px;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Nama</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>100</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Jenis_Kelamin</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:red;
+</string>
+    </property>
+    <property name="text">
+     <string>Hapus</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/sampah-removebg-preview.png</normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/sampah-removebg-preview.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(150, 123, 111, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>Edit</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/edit-removebg-preview.png</normaloff>../../../asus/OneDrive/Gambar/UTS pak opan/edit-removebg-preview.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>130</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Jabatan</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>110</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <item>
+     <property name="text">
+      <string>Laki-Laki</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Perempuan</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>-70</x>
+      <y>670</y>
+      <width>1051</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../asus/Downloads/WhatsApp_Image_2024-04-25_at_12.57.12_c3b880b1-removebg-preview.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>140</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Operator Produksi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Leader Produksi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Administrasi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Front Office</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>IT Support</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Admin IT</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gudang</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>160</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Status</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_4">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>170</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Menikah</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lajang</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cerai</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>110</y>
+      <width>381</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Status</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Bonus</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Uang Makan</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>160</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gaji</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:marron;
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>791</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(255,150,150);
+</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>-40</y>
+      <width>381</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>15</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>Sistem Data Kepegawaian</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>10</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OCR A Extended</family>
+      <pointsize>13</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>HRD ) )</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>0</y>
+      <width>221</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:blue;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>881</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(85,85,127);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>170</y>
+      <width>111</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:1px solid rgba(0, 0, 0, 0);
+border-bottom-color:rgba(46, 82, 101, 255);
+color:rgba(255, 255, 255);
+padding-bottom:7px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Rp.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>210</y>
+      <width>791</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:white;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>230</y>
+      <width>241</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Rockwell</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>( WELCOME ADMIN )</string>
+    </property>
+   </widget>
+   <zorder>label_11</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_13</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label</zorder>
+   <zorder>tableWidget</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>label_2</zorder>
+   <zorder>lineEdit_2</zorder>
+   <zorder>label_4</zorder>
+   <zorder>lineEdit_3</zorder>
+   <zorder>label_5</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>label_6</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>comboBox_2</zorder>
+   <zorder>label_7</zorder>
+   <zorder>comboBox_4</zorder>
+   <zorder>tableWidget_2</zorder>
+   <zorder>label_10</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_8</zorder>
+   <zorder>line</zorder>
+   <zorder>lineEdit_5</zorder>
+   <zorder>label_14</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

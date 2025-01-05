@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>711</width>
+    <height>579</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QFrame" name="frame_2">
+       <property name="geometry">
+        <rect>
+         <x>99</x>
+         <y>9</y>
+         <width>131</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>111</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../../../asus/OneDrive/Gambar/20240507_201132_0000-removebg-preview.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>111</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:white
+;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>91</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../../../asus/OneDrive/Gambar/UTS pak opan/OIP-removebg-preview.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <zorder>label_3</zorder>
+       <zorder>label</zorder>
+       <zorder>label_6</zorder>
+      </widget>
+      <widget class="QFrame" name="frame_3">
+       <property name="geometry">
+        <rect>
+         <x>229</x>
+         <y>9</y>
+         <width>451</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>40</y>
+          <width>231</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>PROGRESS DARI TAHUN</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>70</y>
+          <width>181</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>2021</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2022</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2023</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2024</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>431</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:white
+;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <zorder>label_4</zorder>
+       <zorder>label_2</zorder>
+       <zorder>comboBox</zorder>
+      </widget>
+      <widget class="QFrame" name="frame_4">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>179</y>
+         <width>671</width>
+         <height>251</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_5">
+       <property name="geometry">
+        <rect>
+         <x>9</x>
+         <y>439</y>
+         <width>671</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>651</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:rgba(85,85,127);
+</string>
+        </property>
+        <property name="text">
+         <string>Tampilkan Data</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>671</width>
+         <height>521</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:black;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QFrame" name="frame_6">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>51</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 131, 120, 219), stop:1 rgba(85,98,112,226));
+color : rgb(255, 255, 255);
+border-radius:5px;
+
+background-color: qlinergradient(spread:pad, x1:0, y1:0, 505682, x2:1, y2:0.477, stop:0 rgba(11, 123, 111, 219), stop:1 rgba(85,81,84,226));
+
+padding-left:5px;
+padding-top:5px;
+background-color:rbg(255, 150, 250);
+</string>
+        </property>
+        <property name="text">
+         <string>&lt;</string>
+        </property>
+       </widget>
+      </widget>
+      <zorder>label_5</zorder>
+      <zorder>frame_2</zorder>
+      <zorder>frame_3</zorder>
+      <zorder>frame_4</zorder>
+      <zorder>frame_5</zorder>
+      <zorder>frame_6</zorder>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
